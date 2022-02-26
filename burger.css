@@ -1,0 +1,49 @@
+.burger-bg{
+    display: none;
+    padding-top: 30px;
+    padding-left: 10px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: #292929;
+    top: 0;
+    padding: 0 70px;
+}
+
+.burger{
+    margin-top: 40vh;
+}
+
+.burger > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo-burger{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+@media (max-width: 320px){
+
+    .burger-bg{
+        padding-top: 30px;
+        padding-left: 0px;
+        max-width: 320px;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        background: #292929;
+        top: 0;
+        padding: 0 0px;
+    }
+
+    .burger > ul{
+        align-items: center;
+    }
+}

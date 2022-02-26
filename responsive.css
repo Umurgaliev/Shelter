@@ -1,0 +1,302 @@
+/* Font */
+
+@media (max-width: 337px){
+
+    h2{
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+    h3{
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+
+    h4{
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.06em;
+    }
+
+    .header-subtitle{
+        font-size: 15px;
+        line-height: 160%;
+    }
+
+    p{
+        font-size: 15px;
+        line-height: 160%;
+    }
+
+    .btn{
+        font-size: 17px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+}
+
+@media (max-width: 337px){
+    .p-small{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+/* Main */
+
+@media (max-width: 1148px){
+
+    .header-img{
+        margin-right: -148px;
+    }
+
+    .animals-cards{
+        max-width: 630px;
+    }
+
+    .footer-block{
+        gap: 65px 39px;
+    }
+}
+
+@media (max-width: 1000px){
+    .modal-dialog{
+        width: 682px;
+        height: 402px;
+    }
+
+    .modal-window{
+        width: 630px;
+        height: 350px;
+    }
+
+    .window-img{
+        width: 320px;
+        height: 350px;
+    }
+
+    .window-text{
+        margin-top: 10px;
+        width: 260px;
+        gap: 20px;
+    }
+
+    .pets-info > ul{
+        gap: 5px;
+    }
+
+    .description > h5{
+        font-size: 13px;
+        line-height: 110%;
+        
+        letter-spacing: 0.06em;
+    }
+
+}
+
+
+@media (max-width: 990px){
+
+    .footer-block{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 790px){
+
+    .animals-cards{
+        max-width: 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Header */
+
+    .header{
+        padding-top: 30px;
+    }
+
+    .nav{
+        display: none;
+    }
+    
+    #nav-icon5{
+        display: block;
+    }
+
+    .burger-bg{
+        display: block;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .header-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .start-screen{
+        min-width: 563px;
+    }
+    
+    .header-text-block{
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+
+    .header-text-block > a{
+        margin: 0 auto;
+    }
+
+    .header-img{
+        margin: 0;
+        width: 563px;
+    }
+
+    /* About */
+
+    .about-shelter{
+        flex-direction: column-reverse;
+        gap: 80px;
+    }
+
+    /* Donation */
+
+    .donat{
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    .donation-dog{
+        width: 505px;
+    }
+
+    /* Footer */
+
+    .footer-block{
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 60px;
+    }
+
+    .footer-puppy{
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 768px){
+    #nav-icon5{
+        display: none;
+    }
+
+    .burger-bg{
+        display: none;
+    }
+}
+
+@media (max-width: 700px){
+    .modal-dialog{
+        width: 271px;
+        height: 393px;
+    }
+
+    .modal-window{
+        width: 240px;
+        height: 341px;
+        padding: 0 10px;
+    }
+
+    .window-img{
+        display: none;
+    }
+
+    .window-text{
+        margin-top: 10px;
+        width: 260px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .pets-info > ul{
+        gap: 5px;
+    }
+
+    .description > h5{
+        font-size: 13px;
+        line-height: 110%;
+        
+        letter-spacing: 0.06em;
+    }
+
+}
+
+@media (max-width: 594px){
+
+    .header-img{
+        margin: 0;
+        width: 100%;
+    }
+
+    .start-screen{
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 401px){
+
+    .how-help{
+        gap: 30px;
+    }
+
+    .help-card{
+        width: 130px;
+    }
+
+    .help-card > h4{
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+    }
+
+    .donation-text{
+        align-items: center;
+        text-align: center;
+        min-width: 100%;
+    }
+
+    .donation-text > img{
+        width: 281px;
+    }
+}
+
+/* Our animals */
+
+@media (max-width: 1199px){
+
+    .catalog-item{
+        max-width: 870px;
+    }
+}
+
+@media (max-width: 899px){
+
+    .catalog-item{
+        max-width: 570px;
+    }
+}
+
+@media (max-width: 599px){
+
+
+    .catalog-item{
+        justify-content: center;
+    }
+}
